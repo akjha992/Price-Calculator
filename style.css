@@ -20,12 +20,13 @@ body{
 h1{
 	text-align: center;
 	margin-top:50px;
-}
+} 
 .boxer{
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 50%;
 	width: 80%; 
+	min-height:20px;
 }
 .txt{
 	margin-top:10px;
