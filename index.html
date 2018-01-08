@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Skins</title>
+	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript" src="ajaxUtils.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
@@ -15,11 +16,14 @@
 	<input type="radio" name="item_type">Skins
 	<input type="radio" name="item_type">CS GO Case Keys
 	<input type="radio" name="item_type">Steam Games
-	 -->
-	 Steam Price
-	<input onfocusout="this.value='₹ '+this.value" onchange="correct(event);" type="text" value="₹ " onfocus="this.value='';" name="steam_price" id="steam_price">
-	Offer Price
-	<input  type="text" name="offer_price" id="offer_price">
+	 --> 
+	 <h1>Welcome to REAPER SHOP<br>Discount Calculator</h1>
+	 <div id="mainbox">
+	 <div class="txt">Steam Price</div> 
+	<input class="boxer" onfocusout="this.value='₹ '+this.value" onchange="correct(event);" type="text" value="₹ " onfocus="this.value='';" name="steam_price" id="steam_price"><br>
+	<div id="low" class="txt">Offer Price</div>
+	<input class="boxer" type="text" name="offer_price" id="offer_price">
+	</div>
 </body>
 
 </html>

@@ -1,0 +1,36 @@
+body{
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+}
+#mainbox{
+	background-color: green;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+    width: 20%; /* Set your desired with */
+    z-index: 2; /* Make sure its above other items. */
+    top: 50%;
+    left: 50%;
+    margin-top: -10%; /* Changes with height. */
+    margin-left: -10%; 
+	border :5px solid crimson;
+}
+h1{
+	text-align: center;
+	margin-top:50px;
+}
+.boxer{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50%;
+	width: 80%; 
+}
+.txt{
+	margin-top:10px;
+	font-size: 80%;
+}
+#low{
+	margin-top:20px;
+}
